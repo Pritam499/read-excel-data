@@ -60,7 +60,7 @@ Copy `capbudg.xls` file into the `data/` folder so the path is `data/capbudg.xls
 
 # CODE WALKTHROUGH
 
-## A. `read_excel_utils.py`
+## A. `read_excel_func.py`
 
 * **`ExcelReader` class**
 
