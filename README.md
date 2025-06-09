@@ -16,7 +16,7 @@ This service exposes three HTTP GET endpoints to read data from an Excel file (�
 read-excel-data/
 ├── app/
 │   ├── main.py              ← FastAPI application and route definitions
-│   ├── read\_excel\_utils.py  ← ExcelReader class (loads workbook, lists sheets, reads rows, sums values)
+│   ├── read_excel_func.py  ← ExcelReader class (loads workbook, lists sheets, reads rows, sums values)
 │   ├── schemas.py           ← Pydantic models for request/response payloads
 │   └── exceptions.py        ← Custom HTTPException subclasses for 404/400 errors
 ├── data/
