@@ -21,10 +21,6 @@ read-excel-data/
 │   └── exceptions.py        ← Custom HTTPException subclasses for 404/400 errors
 ├── data/
 │   └── capbudg.xls          ← Place your production Excel workbook here
-├── tests/                   ← (Optional) contains automated pytest tests
-│   ├── test\_endpoints.py
-│   └── sample\_data/
-│       └── capbudg\_sample.xls
 ├── .gitignore
 ├── README.md                ← this file
 └── postman\_collection.json  ← ready-to-import requests for Postman
